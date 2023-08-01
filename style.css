@@ -36,22 +36,3 @@
     color: gray;
     text-transform: uppercase;
 }
-
-/* .navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #1e91e2;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-} */
-
-.navbar ul li :hover{
-    width: 100%;
-    background: #1e91e2;
-    color: gray;
-
-}
-
