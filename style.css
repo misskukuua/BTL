@@ -33,6 +33,132 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: gray;
+    color: rgb(32, 160, 235);
     text-transform: uppercase;
 }
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(32, 160, 235);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-20%);
+    text-align: left;
+    color: black;
+}
+
+.content h1{
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+.content p{
+    margin: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    white-space: nowrap;
+    font-size: 20;
+    line-height: 250%;
+}
+
+button{
+    width: 130px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid rgb(32, 160, 235);
+    background: rgb(32, 160, 235);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: rgb(32, 160, 235);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
+.img{
+    display: flex;
+    margin-left: auto;
+    margin-right: 76px;
+    width: 30%;
+    height: 70%;
+    float: right;
+    border-radius: 15px;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.str{
+    display: flex;
+    margin: 10px;
+    height: 10%;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: right;
+    width: 150%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+  .row {
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 2px;
+    justify-content: space-between;
+  }
