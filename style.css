@@ -64,6 +64,7 @@
 .content h1{
     font-size: 30px;
     margin: 20px;
+    margin-top: 50px;
 }
 
 
@@ -81,7 +82,7 @@ button{
     width: 130px;
     padding: 15px 0;
     text-align: center;
-    margin: 10px 20px;
+    margin: 10px 10px;
     border-radius: 5px;
     font-weight: bold;
     border: 2px solid rgb(32, 160, 235);
@@ -132,7 +133,7 @@ h2{
     margin: 10px;
     height: 10%;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -162,3 +163,128 @@ h2{
     padding: 2px;
     justify-content: space-between;
   }
+
+  .content h3{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 200px;
+  }
+
+  .content h3 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    white-space: nowrap;
+    font-size: 20;
+    line-height: 250%;
+    margin-top: 40px;
+  }
+
+  .chr{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 0 30px;
+    width: 92%;
+    height: 450px;
+    float: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+  }
+
+ .cross{
+    width: 60px;
+    height: 60px;
+    float:inline-start;
+    margin: 0px 0px 0px 0px;
+  }
+
+  h4{
+    font-size: 30px;
+    margin-left: 17px;
+    margin-top: 0;
+    
+  }
+
+  .content h4 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    white-space: nowrap;
+    font-size: 20;
+    line-height: 250%;
+  }
+
+  * {
+    padding: o;
+    margin: 0;
+  }
+
+.container2 {
+    margin: 10px 20px;
+    color: black;
+  } 
+
+  .heading{
+    font-size: 60px;
+    color: black;
+  }
+
+ .profiles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+    float: left;
+    margin-left: 130px;
+    margin-right: 80px;
+ }
+
+ .profile{
+    flex-basis: 260px;
+ }
+
+ .profile .profile-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+ }
+
+ .profile:hover .profile-img{
+    filter: grayscale(0);
+ }
+
+ .user-name {
+    margin-top: 30px;
+    font-size: 35px;
+ }
+
+ .profile h6 {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: black;
+ }
+
+ @media only screen and (max-width: 1150px){
+    .profiles {
+        flex-direction: column;
+    }
+    
+ } 
+
+ .container2 h5{
+    font-size: 30px;
+    text-align: center;
+
+
+ }
+ .profile h7{
+    font-size: 15px;
+    font-weight: bold;
+ }
