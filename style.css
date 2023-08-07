@@ -13,7 +13,7 @@
 
 .navbar{
     width: 85%;
-    margin: auto;
+    margin-left: 20px;
     padding: 35px 0;
     display: flex;
     align-items: center;
@@ -21,8 +21,12 @@
 }
 
 .logo{
-    width: 120px;
+    width: 200px;
     cursor: pointer;
+    height: fit-content;
+    margin-bottom: 20px;
+    height: 15vh;
+    border-radius: 50%;
 }
 
 .navbar ul li{
@@ -64,7 +68,7 @@
 
 .content h1{
     font-size: 30px;
-    margin: 20px;
+    margin: 30px;
     margin-top: 50px;
     color: rgb(32, 160, 235);
     font-family: 'Times New Roman', Times, serif;
@@ -124,22 +128,15 @@ button:hover{
     height: 70%;
     float: right;
     border-radius: 15px;
+    border-bottom: 50px;
 }
 
 h2{
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
     font-size: 30px;
     color: rgb(32, 160, 235);
     font-family: 'Times New Roman', Times, serif;
-}
-
-.str{
-    display: flex;
-    margin: 10px;
-    height: 10%;
-    margin-top: 0;
-    margin-bottom: 60px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -173,7 +170,7 @@ h2{
   .content h3{
     font-size: 30px;
     margin-left: 20px;
-    margin-top: 200px;
+    margin-top: 250px;
   }
 
   .content h3 p{
@@ -277,7 +274,7 @@ h2{
     font-size: 20px;
     font-weight: bolder;
     letter-spacing: 3px;
-    color: white;
+    color: black;
  }
 
  @media only screen and (max-width: 1150px){
@@ -297,6 +294,7 @@ h2{
  .profile h7{
     font-size: 15px;
     font-weight: bold;
+    color: black;
  }
 
 .art h3{
@@ -418,7 +416,7 @@ h2{
   color: black;
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .text-box p{
